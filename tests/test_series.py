@@ -59,3 +59,8 @@ def test_sum_series():
     actual = sum_series(3)
     excepted = 2
     assert actual == excepted   
+
+def test_sum_series_tow():
+    actual = sum_series(4)
+    excepted = 3
+    assert actual == excepted   

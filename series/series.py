@@ -23,10 +23,6 @@ def lucas (n):
     
 
 
-
-
-
-
 def sum_series (a,b=0,c=1):
     if b == 0 and c == 1:
         return fibonacci(a)
