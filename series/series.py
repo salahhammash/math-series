@@ -1,4 +1,16 @@
 def fibonacci(n):
+    '''
+    this function return the sum of the 2 previous numbers 
+   The first few terms of the Lucas sequence are: 0,1
+
+    we start with a brief description of what the function does: it computes the nth Fibonacci number.
+
+Next, we list the parameters that the function takes in. In this case, there is only one parameter, n, which is the index of the Fibonacci number to compute. We also specify that n must be non-negative.
+
+After that, we describe what the function returns: the nth Fibonacci number, which is an integer.
+
+Finally, we specify that the function will raise a ValueError if n is negative.
+    '''
     if n == 0:
         return 0 
     
@@ -12,6 +24,10 @@ def fibonacci(n):
 
 
 def lucas (n):
+   '''As with the Fibonacci sequence, the Lucas sequence can also be implemented recursively or iteratively in a computer program
+   its do the same thing as fibonacci but 
+   The first few terms of the Lucas sequence are: 2,1
+   '''
    if n == 0:
         return 2 
    
